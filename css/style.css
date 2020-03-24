@@ -1,0 +1,406 @@
+body {
+    background-color: #f8e530;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320px;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    border: 0;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 3px 8px;
+    transform: skew(-20deg);
+}
+
+button span {
+    display: block;
+    transform: skew(20deg);
+}
+
+
+/*===============================header===============================*/
+
+.header-main {
+    background: url(../img/header-map.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background: url(../img/back-menu.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 55px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8e530;
+}
+
+header .nav-btn {
+    all: unset;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.fa-bars:hover {
+    color: #f8e530;
+}
+
+.header-slider p:first-child {
+    font-size: 8vw;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.header-slider p:last-child {
+    font-size: 19px;
+}
+
+.header-slider .btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header-slider .btn:hover {
+    color: #f8e530;
+}
+
+
+/*===============================design===============================*/
+
+.design {
+    background: url(../img/back-design.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.design p {
+    font-size: 17px;
+}
+
+.design h2 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.design h2 span {
+    color: #f8e530;
+}
+
+.design h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.round {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+.design .btn {
+    background-color: #f8e530;
+    color: #000;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+/*===============================work===============================*/
+
+
+/* .work {
+            background: url(../img/back-work.png) bottom no-repeat;
+            } */
+
+.work h2 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.work p {
+    padding: 0 90px;
+}
+
+.work img {
+    width: 350px;
+    height: 255px;
+    padding-bottom: 30px;
+}
+
+.work .btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.work .btn:hover {
+    color: #f8e530;
+}
+
+
+/*===============================reviews===============================*/
+
+.reviews {
+    background: url(../img/back-reviews.png) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.reviews h2 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.col-md-12 p {
+    padding: 0 90px;
+}
+
+.review {
+    background-color: #000;
+    padding: 30px;
+    position: relative;
+}
+
+.review .foto {
+    border-radius: 50%;
+}
+
+.review .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.review h3 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.review h3 span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.review p {
+    color: #6f6f6f;
+    clear: both;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.reviews .btn {
+    background-color: #f8e530;
+    color: #000;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+/*===============================intouch===============================*/
+
+input[type="text"],
+.intouch textarea {
+    background-color: #000;
+    color: #fff;
+    width: 45%;
+    border-radius: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+.intouch h2 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.intouch textarea {
+    width: 94%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.intouch .btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.intouch .btn:hover {
+    color: #f8e530;
+}
+
+.intouch p {
+    border-bottom: 1px #000 dashed;
+    padding: 15px 0;
+}
+
+.intouch h3 {
+    text-transform: uppercase;
+}
+
+
+/*===============================footer===============================*/
+
+.footer {
+    background: url(../img/back-reviews.png) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer-bar {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.copyright {
+    background-color: #f8e530;
+    padding: 40px;
+}
+
+.col-md-3:first-child p {
+    margin-top: 3rem;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    padding-top: 40px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.footer ul li {
+    margin-bottom: 2rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul li a:hover {
+    color: #f8e530;
+}
+
+.follow ul li {
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.fab,
+.fas {
+    color: #f8e530;
+}
+
+.copyright p {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav .nav-link {
+        text-align: center;
+        margin-right: 0;
+    }
+    .round {
+        width: 200px;
+        height: 200px;
+    }
+    .review h3 {
+        clear: both;
+    }
+    .review .foto {
+        float: none !important;
+    }
+    input[type="text"] {
+        width: 94%;
+    }
+    @media only screen and (max-width: 768px) {
+        .like {
+            float: right;
+        }
+        .header-main {
+            display: none;
+        }
+        .design {
+            margin-top: 5px;
+        }
+        .review {
+            margin-top: 15px;
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        .design p {
+            font-size: 14px;
+        }
+        .design h2 {
+            text-transform: uppercase;
+            font-size: 35px;
+            font-weight: 900;
+        }
+        .design h2 span {
+            color: #f8e530;
+        }
+        .design h3 {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 900;
+        }
+        .design .row {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+    @media only screen and (max-width: 380px) {
+        .work p {
+            padding: 0 15px;
+        }
+        .col-md-12 p {
+            padding: 0 15px;
+        }
+    }
+}
